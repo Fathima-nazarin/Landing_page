@@ -79,3 +79,43 @@ ul, a{
     font-weight: bold;
     margin-top: 15px;
 }
+.page2{
+    display: flex;
+    margin: 0;
+    padding: 35 0 ;
+    background-color: rgb(255, 250, 245);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.page2 h2{
+    font-size: 37px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 30px;
+    color: rgb(41, 43, 54);
+}
+.tiles{
+    display: flex;
+    gap: 50px;
+
+}
+.tile{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    justify-content: center;
+}
+.tile .image{
+    width: 160px;
+    height: 170px;
+    border: 5px solid rgb(46, 111, 252);
+    border-radius: 15px;
+
+}
+.tile p{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(72, 72, 72);
+    font-weight:600;
+}
