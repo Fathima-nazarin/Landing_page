@@ -6,6 +6,7 @@ body{
     background-color: rgb(28, 35, 49);
     height: 550px;
     padding: 0 220px;
+    
 }
 .header{
     padding: 10px 0;
@@ -29,4 +30,52 @@ ul, a{
     gap: 28px;
     font-size: 18px;
     font-weight: 200;
+}
+.content{
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    align-items: center;
+    min-height: 450px;
+}
+#heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(244, 244, 244);
+    margin: 0;
+}
+.intro p{
+    font-size: 20px;
+    color: lightgrey;
+    margin: 0;
+}
+.intro{
+    
+    flex-basis: 180px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+.image-space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+    background-color: rgb(96, 104, 105);
+    width: 540px;
+    height: 250px;
+
+}
+.button a{
+    background-color: rgb(68, 140, 255);
+    padding: 8px 20px 8px 28px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
 }
