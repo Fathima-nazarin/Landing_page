@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+}
+.main{
+    background-color: rgb(28, 35, 49);
+    height: 550px;
+    padding: 0 220px;
+}
+.header{
+    padding: 10px 0;
+}
+ul, a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(152, 152, 152);
+    padding: 0;
+}
+
+#logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.right-links{
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    font-weight: 200;
+}
