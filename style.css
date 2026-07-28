@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
-    font-family:Arial, sans-serif;
+    font-family: roboto;
 }
 .main{
     background-color: rgb(28, 35, 49);
@@ -115,7 +116,7 @@ ul, a{
 }
 .tile p{
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     color: rgb(72, 72, 72);
-    font-weight:600;
+    font-weight:500;
 }
