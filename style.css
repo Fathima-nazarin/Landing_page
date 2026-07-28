@@ -120,3 +120,21 @@ ul, a{
     color: rgb(72, 72, 72);
     font-weight:500;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 350px 20px 350px;
+    background-color: rgb(227, 220, 211);
+    font-size: 38;
+    font-weight: 200;
+    color: rgb(113, 54, 81);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#speaker{
+    padding-right: 50px;
+    text-align: right;
+    font-size: 28;
+    font-weight: bold;
+    color: rgb(69, 15, 39);;
+}
