@@ -138,3 +138,39 @@ ul, a{
     font-weight: bold;
     color: rgb(69, 15, 39);;
 }
+.signup{
+    padding:70px 250px;
+    background-color: rgb(255, 250, 245);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color:rgb(76, 132, 252); ;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+button{
+      background-color: rgb(76, 132, 252);  
+      padding: 10px 25px;
+      border-radius: 10px;
+      margin: 10px 0;
+      border: 2.5px solid white;
+}
+button a{
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+
+.banner #p1{
+    margin: 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+.banner #p2{
+    margin: 0;
+}
