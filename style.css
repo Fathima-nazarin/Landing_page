@@ -59,10 +59,6 @@ ul, a{
 
 }
 .image-space{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
     font-size: 18px;
     background-image: url(images/img5.jpg);
     background-position: center;
